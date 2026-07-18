@@ -78,11 +78,11 @@ cd maven-marketing-campaign-analysis
 
 **Page 1 — Executive Overview**
 
-![Executive Overview](Dashboard/Dashboard Executive Overview Page-1.png)
+![Executive Overview](Dashboard/DashboardExecutiveOverviewPage-1.png)
 
 **Page 2 — Customer & Marketing Insights**
 
-![Customer & Marketing Insights](Dashboard/Dashboard Page-2.png)
+![Customer & Marketing Insights](Dashboard/DashboardPage-2.png)
 
 ## Key Findings
 
