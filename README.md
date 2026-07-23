@@ -71,24 +71,16 @@ cd maven-marketing-campaign-analysis
    ```
 4. Open Power BI Desktop and connect to the `maven_marketing` database to rebuild the dashboard.
 
-## Pipeline Flow
-
-1. Raw data is cleaned in Excel and exported to CSV.
-2. `01_create_schema.sql` creates the `maven_marketing` database and the `customers` table, then loads the CSV.
-3. `02_data_quality_checks.sql` runs null, duplicate, and outlier checks against the loaded table and documents what it finds.
-4. `03_business_analysis.sql` runs six sets of queries against `customers`, one per business question, each with the actual result documented inline for verification.
-5. Power BI connects to the `customers` table for the dashboard.
 
 ## Output / Screenshots
 
 **Page 1 — Executive Overview**
 
-![Executive Overview](<Dashboard/Executive Overview Page-1.png>)
+![Executive Overview](dashboards/screenshots/executive_overview.png)
 
+![Marketing & customer Insights](Dashboard/Marketing & Customer Insights Page-2.png)
 
-![Customer & Marketing Insights](<Dashboard/Marketing & Customer Insights Page-2.png>)
-
-![Key Insights & Recommendations](<Dashboard/Key Insights & Recommendations.png>)
+![Customer & Marketing Insights](dashboards/screenshots/customer_marketing_insights.png)
 
 ## Key Findings
 
