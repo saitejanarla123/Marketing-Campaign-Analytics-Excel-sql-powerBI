@@ -30,13 +30,18 @@ Requirements traced to each deliverable: [`docs/requirements.md`](docs/requireme
 ```
 maven-marketing-campaign-analysis/
 ├── data/
-│   └── raw/                 # not committed — see data/raw/README.md to reproduce
+│   └── raw/  
+│   └── Cleaned/
+│              
 ├── sql/
-│   ├── 01_create_schema.sql
-│   ├── 02_data_quality_checks.sql
-│   └── 03_business_analysis.sql
+│   └── business_analysis.sql
+│
 ├── dashboards/
-│   └── screenshots/
+│   └── Executive Overview Page-1/
+│   └── Marketing & Customer Insights Page-2/
+│   └── Key Insights & Recommendations/
+│   └── Marketing Campaign Analytics.pbix
+│
 ├── docs/
 │   ├── business_context.md
 │   ├── requirements.md
@@ -78,11 +83,14 @@ cd maven-marketing-campaign-analysis
 
 **Page 1 — Executive Overview**
 
-![Executive Overview](dashboards/screenshots/executive_overview.png)
+![alt text](<Dashboard/Executive Overview Page-1.png>)
 
-**Page 2 — Customer & Marketing Insights**
+**Page 2 — Marketing & Customer Insights**
+![alt text](<Dashboard/Marketing & Customer Insights Page-2.png>)
 
-![Customer & Marketing Insights](dashboards/screenshots/customer_marketing_insights.png)
+
+**Page 3 — Key Insights & Recommendations**
+![alt text](<Dashboard/Key Insights & Recommendations.png>)
 
 ## Key Findings
 
